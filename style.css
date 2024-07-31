@@ -1,0 +1,139 @@
+::-webkit-scrollbar{
+    width: 10px;
+    margin-left: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #3f73ce;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #185dd5;
+    cursor:pointer;
+}
+body{
+    background-color: #f9dec9;
+    font-family: Poppins , Arial ;
+}
+#container{
+    
+    width: 40vw;
+    height: 90vh;
+    margin: auto;
+    margin-top: 15vh;
+
+}
+#descripton{
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 0 0 20px 20px;
+    Padding:25px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+#descripton p{
+    font-size: 16px;
+     text-align: justify;
+}
+#nav-bar{
+    text-align:center;
+    display:grid;
+    gap:5px;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 40px;
+}
+#text{
+    box-sizing: border-box;
+    width:60%;
+    height: 90%;
+    overflow: auto;
+    
+}
+#photo{
+    box-sizing: border-box;
+    width: auto;
+    width: 40%;
+    height: 80%;
+    margin-left: auto;
+    margin-top: 5%;
+
+    
+    
+}
+#photo img{
+    border-radius:10px;
+    box-shadow:15px -15px #5885d3;
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+
+ }
+#footer{
+    height: 10%;
+    width:100%;
+
+}
+#socials{
+    position: absolute;
+    width:30%;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    bottom: 30px;
+    left: 30px;
+}
+i{
+    
+    font-size: 30px;
+}
+
+li{
+    list-style: "♦  ";
+    padding-bottom: 10px;
+}
+#CV{
+    position: absolute;
+    bottom:30px;
+    right:55px;
+    font-size: 1vw;
+}
+#cv_icon{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+#CV a:hover{
+    background-color: #5989dc;
+    cursor:pointer;
+    border-radius: 5px;
+    
+}
+.animation{
+    color:bisque;
+    background-color:#5989dc;
+    border: none;
+    border-radius: 20px 20px 0 0 ;
+    font-size: 30px;
+    font-family: Poppins , Arial ;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+.animation:hover{
+    background-color: #1964dd;
+    transform: translateY(-10px);
+    cursor:pointer;
+}
+i:hover{
+    cursor:pointer;
+}
+#main_text{
+ margin-right: 10px;
+}
