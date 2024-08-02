@@ -17,14 +17,18 @@
 body{
     background-color: #f9dec9;
     font-family: Poppins , Arial ;
+    font-size: 1vw;
 }
 #container{
     
-    width: 40vw;
+    width: 45vw;
     height: 90vh;
     margin: auto;
     margin-top: 15vh;
 
+}
+#main_text{
+    font-size: 0.8em;
 }
 #descripton{
     height: 50%;
@@ -37,15 +41,16 @@ body{
     
 }
 #descripton p{
-    font-size: 16px;
      text-align: justify;
 }
+
 #nav-bar{
     text-align:center;
     display:grid;
     gap:5px;
     grid-template-columns: repeat(4, 1fr);
-    font-size: 40px;
+    font-size: 2em;
+    justify-content: center;
 }
 #text{
     box-sizing: border-box;
@@ -53,6 +58,11 @@ body{
     height: 90%;
     overflow: auto;
     
+}
+#text h1{
+    font-size: 1.5em;
+}#text h2{
+    font-size: 1.1em;
 }
 #photo{
     box-sizing: border-box;
@@ -88,18 +98,19 @@ body{
 }
 i{
     
-    font-size: 30px;
+    font-size: 1.5em;
 }
 
 li{
     list-style: "♦  ";
     padding-bottom: 10px;
+    margin-left: -20px;
 }
 #CV{
     position: absolute;
     bottom:30px;
     right:55px;
-    font-size: 1vw;
+    font-size: 1em;
 }
 #cv_icon{
     margin-left: 10px;
@@ -121,7 +132,7 @@ a{
     background-color:#5989dc;
     border: none;
     border-radius: 20px 20px 0 0 ;
-    font-size: 30px;
+    font-size: 1em;
     font-family: Poppins , Arial ;
     font-weight: bold;
     transition: transform 0.3s;
