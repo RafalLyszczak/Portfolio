@@ -31,6 +31,17 @@ function changeText3(){
     container.replaceChild(newDiv, originalDiv);
 
 }
+function changeText4(){
+    document.getElementById("h1text").innerHTML = "My goal:"; // change h1 element
+    var container = document.getElementById('text');
+    var originalDiv = document.getElementById('main_text');
+    var newDiv = document.createElement('div');
+    newDiv.id = "main_text";
+    newDiv.innerHTML = "<p>I started code in the past but as hobby, then had quite long break. I am defnietly into code. Currently I am working in hospital as HCA. I was comparning Nursing to codding, and i realize i enoy codding more than Nursing. Main reason is Computers and code is more familiar with my personality.</p><h2>Goals:</h2><ul><li>Start carreer as front end developer (apprenticeship/entry posision/inter position)</li><li>Get know cod in professional way</li><li>Extend my skills to full stack web developer</li></ul>";
+    
+    container.replaceChild(newDiv, originalDiv);
+
+}
 function copyText(){
     var text = "rafal.tron532@gmail.com";
 
