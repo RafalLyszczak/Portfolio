@@ -44,7 +44,7 @@ body{
     text-align:center;
     display:grid;
     gap:5px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     font-size: 40px;
 }
 #text{
