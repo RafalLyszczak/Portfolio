@@ -91,10 +91,10 @@ body{
 #socials{
     position: absolute;
     width:30%;
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    bottom: 30px;
-    left: 30px;
+    display: flex;
+    gap: 3.3vw;
+    bottom: 2.3vh;
+    left: 1.5vw;
 }
 i{
     
@@ -108,8 +108,8 @@ li{
 }
 #CV{
     position: absolute;
-    bottom:30px;
-    right:55px;
+    bottom: 2.3vh;
+    right: 1.5vw;
     font-size: 1em;
 }
 #cv_icon{
