@@ -310,7 +310,7 @@ footer{
 #motto{
     color: rgba(255, 255, 255, 0.581);
 }
-a:visited {
+#inLineNav a:visited {
   color:#241B4D;
 }
 @media (width >=1280px) {
@@ -371,4 +371,5 @@ a:visited {
         display: none;
     }
 }
+
 
