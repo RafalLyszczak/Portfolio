@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styleSheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="headNav" class="navStyle">
+        <div id="headerContainer" class="max-width">
+            <a href="#" id="logo" class="whiteFont">RL.</a>
+            <nav id="navBar" class="mainNav">
+                <ul id="inLineNav">
+                    <li class="nav-item">
+                        <a href="#about"class="whiteFont">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills"class="whiteFont">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact"class="whiteFont">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul id="dropdown"class="nav-menu dropdownEl ">
+                    <li ><a href="#about"class='nav-link' >About</a></li>
+                    <li ><a href="#skills"class='nav-link' >Skills</a></li>
+                    <li ><a href="#contact"class='nav-link'>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <main id="container">
+        <section id="home">
+            <div id="homeContent" class="max-width">
+                <h1>Welcome to My Portfolio</h1>
+                <p>I'm an ambitious beginner developer eager to learn and grow. Every project is a new opportunity to expand my skills and make an impact.</p>
+                <a href="#contact">Email Me</a>
+            </div>
+        </section>
+        <section id="about">
+            <div id="aboutContainer" class="max-width">
+                <h2>About Me</h2> 
+                <div id="aboutContent">
+                    <div id="imageSection">
+                        <img src="Rafal.png"> 
+                        <p><b>Rafal </b></p>
+                        <p>Web developer</p>
+                    </div>
+                    <div id="aboutText">                             
+                        <p>Hello! I'm Rafal a passionate beginer web app creator mostly self-taught.</p>
+                        <p>My journey into web development started back in 2016 when I started my ducation in polish tech school with IT spec.</p> <p>I had chance to try few different type of IT path like Graphic design, networks, hardware, database, and ofocurse Web development which was closest to me. Since 2022 i started learn by my self up and down.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <div id="skillsContainer"class='max-width'>
+            <h2>Skills & Technologies</h2>
+                <div id="skillElement">
+                    <i class="fa-brands fa-html5 iconFormat" style="color: #fca311;"></i>
+                    <!-- <span class="">HTML</span> -->
+                    <i class="fa-brands fa-css3 iconFormat" style="color: #fda211;"></i>   
+                    <!-- <span class="">CSS</span> -->
+                    <i class="fa-brands fa-square-js iconFormat" style="color: #fda211;"></i>
+                    <!-- <span class="">JavaScript</span> -->
+                    <i class="fa-brands fa-node-js iconFormat" style="color: #fda211;"></i>
+                    <!-- <span class="">Node.js</span> -->
+                    <i class="fa-brands fa-square-git iconFormat" style="color: #fda211;"></i>
+                    <!-- <span class="">Git</span> -->
+                    <img src="mongo.svg">
+                    <!-- <span class="">Mongo</span> -->
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div id="contactContainer" class="max-width">
+                <h2>Get In Touch</h2>
+                <p>I'm currently open to new opportunities. If you have a project in mind or just want to say hi, feel free to reach out!</p>
+                <form action="" method=""class='form'>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name"class="inputStyle">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email"class="inputStyle">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" >Message</label>
+                            <textarea name="message" id="message" rows="6" cols="" placeholder="Tell me about your project..."class="inputStyle"></textarea>
+                    </div>
+                    <button>Send Email</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div id="footerContainer" class="max-width">
+            <p id="rights">© 2025 Rafal Lyszczak. All rights reserved.</p>
+            <p id="motto">Built with passion and creativity</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/bf122f7414.js" crossorigin="anonymous"></script>
+</body>
+</html>
