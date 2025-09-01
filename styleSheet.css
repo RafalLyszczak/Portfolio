@@ -310,7 +310,9 @@ footer{
 #motto{
     color: rgba(255, 255, 255, 0.581);
 }
-
+a:visited {
+  color:#241B4D;
+}
 @media (width >=1280px) {
     .hamburger {
         display: none;
@@ -369,3 +371,4 @@ footer{
         display: none;
     }
 }
+
