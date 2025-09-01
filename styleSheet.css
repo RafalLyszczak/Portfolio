@@ -83,7 +83,6 @@ header a{
     top: 80px;  
     width: 280px; 
     height: auto;
-    color:#241B4D;
     font-weight: 400;
     background-color: white;
     border-radius: 8px;
@@ -310,9 +309,11 @@ footer{
 #motto{
     color: rgba(255, 255, 255, 0.581);
 }
-#inLineNav a:visited {
-  color:#241B4D;
+#dropdown a:visited {
+    color:#241B4D;
+    font-weight: 400;
 }
+
 @media (width >=1280px) {
     .hamburger {
         display: none;
@@ -371,5 +372,3 @@ footer{
         display: none;
     }
 }
-
-
